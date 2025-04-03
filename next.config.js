@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
   },
+  output: 'standalone',
   async headers() {
     return [
       {
